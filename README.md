@@ -1,4 +1,4 @@
-# Clothing Store Project
+# Clothing Store - Laravel Project
 
 This is a Laravel-based Clothing Store application. It includes features such as user authentication, product management, and order processing.
 
@@ -26,7 +26,3 @@ This is a Laravel-based Clothing Store application. It includes features such as
    ```bash
    php artisan migrate
    ```
-
-## License
-
-This project is licensed under the MIT License.
