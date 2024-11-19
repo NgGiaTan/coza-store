@@ -1,11 +1,10 @@
-* text=auto eol=lf
+* linguist-language=PHP
 
-*.blade.php diff=html
-*.css diff=css
-*.html diff=html
-*.md diff=markdown
-*.php diff=php
+/vendor/* linguist-vendored
 
-/.github export-ignore
-CHANGELOG.md export-ignore
-.styleci.yml export-ignore
+# Loại bỏ thư mục "node_modules" khỏi việc tính toán ngôn ngữ
+/node_modules/* linguist-vendored
+
+# Bỏ qua các tệp tự động tạo như "composer.lock"
+composer.lock linguist-generated
+*.log linguist-generated
